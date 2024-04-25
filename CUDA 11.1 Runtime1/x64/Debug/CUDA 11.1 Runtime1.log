@@ -1,0 +1,13 @@
+﻿  Compiling CUDA source file Julia_set.cu...
+  
+  C:\Users\Jaber\Desktop\COSC407\CUDA\A7\CUDA 11.1 Runtime1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\Julia_set.cu.obj "C:\Users\Jaber\Desktop\COSC407\CUDA\A7\CUDA 11.1 Runtime1\Julia_set.cu" 
+C:\Users\Jaber\Desktop\COSC407\CUDA\A7\CUDA 11.1 Runtime1\EasyBMP.cpp(1128): warning : variable "ZeroWORD" was declared but never referenced
+  
+C:/Users/Jaber/Desktop/COSC407/CUDA/A7/CUDA 11.1 Runtime1/Julia_set.cu(25): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/Users/Jaber/Desktop/COSC407/CUDA/A7/CUDA 11.1 Runtime1/Julia_set.cu(25): warning : conversion from a string literal to "char *" is deprecated
+  
+  Julia_set.cu
+C:\Users\Jaber\Desktop\COSC407\CUDA\A7\CUDA 11.1 Runtime1\EasyBMP.cpp(1128): warning C4101: 'ZeroWORD': unreferenced local variable
+C:/Users/Jaber/Desktop/COSC407/CUDA/A7/CUDA 11.1 Runtime1/Julia_set.cu(86): warning C4305: 'initializing': truncation from 'double' to 'float'
+  CUDA 11.1 Runtime1.vcxproj -> C:\Users\Jaber\Desktop\COSC407\CUDA\A7\CUDA 11.1 Runtime1\x64\Debug\CUDA 11.1 Runtime1.exe
